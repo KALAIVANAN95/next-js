@@ -105,3 +105,10 @@ a {
     color-scheme: dark;
   }
 }
+
+
+/* 404 page error*/
+._center {
+  text-align: center;
+  margin-top: 10%;
+}
