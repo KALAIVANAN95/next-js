@@ -5,9 +5,11 @@ import Head from 'next/head'
 import NProgress from 'nprogress'
 
 export default function App({ Component, pageProps }) {
-  return <Layout>
+  return<>
+  <Layout>
     <Head>
      </Head>
    
     <Container maxWidth='md'> <Component {...pageProps} /></Container></Layout>
+    </>
 }
